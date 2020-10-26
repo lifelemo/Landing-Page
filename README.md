@@ -1,2 +1,2 @@
-# Landing-Page
+# App landing page
 Landing page for mobile app.
