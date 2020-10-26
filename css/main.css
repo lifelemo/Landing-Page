@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --main-heading-color: #242f51;
+  --main-text-color: #6c6e73;
+  --main-accent-color: #2500f9;
+}
+/* Специфікація*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+section .container {
+  padding-top: 6rem;
+}
+
+.section-title p{
+  max-width: 650px;
+}
+
+.btn-blue {
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  background-color: var(--main-accent-color);
+}
+
+.btn-white {
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  border-color: var(--main-accent-color);
+  border-width: 1px;
+  color: var(--main-accent-color);
+  background-color: white;
+
+}
+
+h1, h2, h5, h6 {
+    color: var(--main-heading-color);
+}
+
+h2, h5 {
+  font-weight: 600;
+}
+
+p {
+  color: var(--main-text-color);
+}
+
+p span {
+  font-size: 40px;
+  color: var(--main-heading-color);
+  font-weight: 700;
+}
+
+/* Перший екран */
+.navbar {
+    padding-top: 0.7rem;
+    background: rgba(255, 255, 255, .95);
+}
+
+.navbar.active {
+  background-color: rgba(255, 255, 255, .95);
+  box-shadow: 0em 0.3em 5px #e3e6ef;
+}
+
+#navbarNav {
+  padding-right: 2rem;
+}
+
+#hero {
+  padding-bottom: 2rem;
+  background-image: url('../img/background.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.main-hero-content {
+  max-width: 720px;
+  margin: auto;
+}
+
+.main-hero-content h1 {
+  font-weight: 700;
+}
+
+/* Другий екран */
+#about-text-box {
+  max-width: 400px;
+}
+
+/* Третій екран */
+.feature-icon {
+  width: 70px;
+}
+
+.feature-title {
+  padding-top: 2rem;
+}
+
+.features-item div {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 2rem;
+}
+
+/* Четвертий екран */
+.pricing .btn-blue {
+   margin-right: 1rem;
+}
+
+.pricing-table {
+  box-shadow: 0.3em 0.3em 5px #e3e6ef;
+  padding: 0;
+  margin: 3rem 3rem 0 3rem;
+  padding-bottom: 1.5rem;
+  max-width: 280px;
+}
+
+.table-header {
+  background: linear-gradient(to top, #f4f7f9 50%, transparent);
+  padding-bottom: 1rem;
+  padding-top: 3rem;
+}
+
+.table-header p {
+  margin: 1px;
+}
+
+.table-content {
+  padding: 1rem;
+}
+
+.table-content ul li {
+  padding-top: 1em;
+  list-style: none;
+  color: var(--main-text-color);
+}
+
+/* П1ятий екран */
+#download a img {
+  max-width: 160px;
+}
+
+.download-content p {
+  padding: 2rem 0;
+}
+
+#download {
+  margin-bottom: 3rem;
+
+}
+
+/* Футер */
+#footer {
+  background-color: #09142e;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#footer ul li a {
+  color: white;
+}
+
+#footer ul li a:hover{
+  color: var(--main-text-color);
+}
+
+#footer i {
+  color: var(--main-text-color);
+}
+
+#footer i:hover{
+  color: white;
+}
+
+#footer div {
+  padding: 2rem 0;
+}
